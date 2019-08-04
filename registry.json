@@ -1,0 +1,59 @@
+{
+    "packages": [
+        {
+            "name": "v-regex",
+            "url": "https://github.com/ShellBear/v-regex",
+            "method": "git"
+        },
+        {
+            "name": "v-mime",
+            "url": "https://github.com/nedpals/v-mime",
+            "method": "git"
+        },
+        {
+            "name": "v-args",
+            "url": "https://github.com/nedpals/v-args",
+            "method": "git"
+        },
+        {
+            "name": "vgram",
+            "url": "https://github.com/vpervenditti/vgram",
+            "method": "git"
+        },
+        {
+            "name": "vgl",
+            "url": "https://github.com/justicesuh/vgl",
+            "method": "git"
+        },
+        {
+            "name": "pg",
+            "url": "https://github.com/vlang/pg",
+            "method": "git"
+        },
+        {
+            "name": "gl",
+            "url": "https://github.com/vlang/pg",
+            "method": "git"
+        },
+        {
+            "name": "sqlite",
+            "url": "https://github.com/vlang/sqlite",
+            "method": "git"
+        },
+        {
+            "name": "glfw",
+            "url": "https://github.com/vlang/glfw",
+            "method": "git"
+        },
+        {
+            "name": "gg",
+            "url": "https://github.com/vlang/gg",
+            "method": "git"
+        },
+        {
+            "name": "ui",
+            "url": "https://github.com/vlang/ui",
+            "method": "git"
+        }
+    ]
+}
