@@ -32,7 +32,7 @@
         },
         {
             "name": "gl",
-            "url": "https://github.com/vlang/pg",
+            "url": "https://github.com/vlang/gl",
             "method": "git"
         },
         {
