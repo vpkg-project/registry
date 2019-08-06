@@ -54,6 +54,11 @@
             "name": "ui",
             "url": "https://github.com/vlang/ui",
             "method": "git"
+        },
+        {
+            "name": "voltcord",
+            "url": "https://github.com/HedariKun/voltcord",
+            "method": "git"
         }
     ]
 }
