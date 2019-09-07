@@ -1,6 +1,11 @@
 {
     "packages": [
         {
+            "name": "owmw",
+            "url": "https://github.com/bowero/owmw",
+            "method": "git"
+        },
+        {
             "name": "v-regex",
             "url": "https://github.com/ShellBear/v-regex",
             "method": "git"
@@ -11,8 +16,8 @@
             "method": "git"
         },
         {
-            "name": "v-args",
-            "url": "https://github.com/nedpals/v-args",
+            "name": "vargs",
+            "url": "https://github.com/nedpals/vargs",
             "method": "git"
         },
         {
@@ -23,6 +28,11 @@
         {
             "name": "vgl",
             "url": "https://github.com/justicesuh/vgl",
+            "method": "git"
+        },
+        {
+            "name": "vrobot",
+            "url": "https://github.com/eioo/vrobot",
             "method": "git"
         },
         {
