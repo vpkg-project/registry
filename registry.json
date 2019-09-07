@@ -59,6 +59,21 @@
             "name": "voltcord",
             "url": "https://github.com/HedariKun/voltcord",
             "method": "git"
+        },
+        {
+            "name": "vsdl2",
+            "url": "https://vpm.best/mod/nsauzede.vsdl2",
+            "method": "git"
+        },
+        {
+            "name": "vini",
+            "url": "https://github.com/spytheman/vini",
+            "method": "git"
+        },
+        {
+            "name": "picoev",
+            "url": "https://github.com/S-YOU/picoev.v",
+            "method": "git"
         }
     ]
 }
