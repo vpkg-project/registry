@@ -84,6 +84,11 @@
             "name": "picoev",
             "url": "https://github.com/S-YOU/picoev.v",
             "method": "git"
+        },
+        {
+            "name": "riv",
+            "url": "https://github.com/Bowero/riv",
+            "method": "git"
         }
     ]
 }
