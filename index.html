@@ -99,7 +99,13 @@
                         });
                     }
 
-                    return packages.sort();
+                    return packages.sort(function(a, b) {
+                        var c = a.name.toLowerCase();
+                        var n = b.name.toLowerCase();
+                        if (c < n) { return -1; }
+                        if (c > n) { return 1; }
+                        return 0;
+                    });
                 }
             }
         });
