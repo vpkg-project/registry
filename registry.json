@@ -72,7 +72,7 @@
         },
         {
             "name": "vsdl2",
-            "url": "https://vpm.best/mod/nsauzede.vsdl2",
+            "url": "https://github.com/nsauzede/vsdl2",
             "method": "git"
         },
         {
@@ -88,6 +88,16 @@
         {
             "name": "riv",
             "url": "https://github.com/Bowero/riv",
+            "method": "git"
+        },
+        {
+            "name": "vconrand",
+            "url": "https://github.com/nevrome/vconrand",
+            "method": "git"
+        },
+        {
+            "name": "vperlin",
+            "url": "https://github.com/spytheman/vperlin",
             "method": "git"
         }
     ]
