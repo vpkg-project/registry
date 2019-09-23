@@ -99,6 +99,11 @@
             "name": "vperlin",
             "url": "https://github.com/spytheman/vperlin",
             "method": "git"
+        },
+        {
+            "name": "vtwitchbot",
+            "url": "https://github.com/prooxeydev/vtwitchbot",
+            "method": "git"
         }
     ]
 }
