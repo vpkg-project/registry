@@ -104,6 +104,11 @@
             "name": "vtwitchbot",
             "url": "https://github.com/prooxeydev/vtwitchbot",
             "method": "git"
+        },
+        {
+            "name": "vttable",
+            "url": "https://github.com/tianyazc/vttable",
+            "method": "git"
         }
     ]
 }
