@@ -109,6 +109,21 @@
             "name": "vttable",
             "url": "https://github.com/tianyazc/vttable",
             "method": "git"
+        },
+        {
+            "name": "v-ldata",
+            "url": "https://github.com/lobotony/v-ldata",
+            "method": "git"
+        },
+        {
+            "name": "v-bitmap",
+            "url": "https://github.com/lobotony/v-bitmap",
+            "method": "git"
+        },
+        {
+            "name": "v-stbtt",
+            "url": "https://github.com/lobotony/v-stbtt",
+            "method": "git"
         }
     ]
 }
