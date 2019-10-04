@@ -38,7 +38,7 @@
         </section>
         <section id="packages" class="pt-8 pb-16 border-t border-gray-500 flex flex-col text-center md:text-left min-h-screen">
             <div class="w-full flex flex-col items-center pb-8">
-                <h2 class="text-3xl text-center mb-4 text-gray-700 font-bold">There are {{ numberOfPackages }} packages on the registry.</h2>
+                <h2 class="text-3xl text-center mb-4 text-gray-700 font-bold">There are {{ numberOfPackages }} packages found on the registry.</h2>
                 <input type="text" placeholder="Search modules/packages..." v-model="searchQuery" class="w-full md:w-4/5 p-4 rounded bg-white border border-gray-500 shadow-none focus:shadow-md" />
             </div>
             <div v-if="!isLoading" class="w-full flex flex-col md:flex-row flex-wrap -mr-4">
@@ -59,7 +59,7 @@
     </div>
     <footer class="bg-gray-200 py-3 w-full">
         <div class="max-w-5xl mx-auto px-2 text-center">
-            &copy; 2019 <a href="https://nedpals.xyz">Ned Palacios</a> / <a href="https://github.com/v-pkg">vpkg project</a>
+            &copy; 2019 <a href="https://nedpals.xyz">Ned Palacios</a> / <a href="https://github.com/vpkg-project">vpkg project</a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
