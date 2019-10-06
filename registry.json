@@ -124,6 +124,11 @@
             "name": "v-stbtt",
             "url": "https://github.com/lobotony/v-stbtt",
             "method": "git"
+        },
+        {
+            "name": "chalk",
+            "url": "https://github.com/etienne-napoleone/chalk",
+            "method": "git"
         }
     ]
 }
