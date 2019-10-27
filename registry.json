@@ -129,6 +129,51 @@
             "name": "chalk",
             "url": "https://github.com/etienne-napoleone/chalk",
             "method": "git"
+        },
+        {
+            "name": "veasing",
+            "url": "https://github.com/jamestomasino/veasing",
+            "method": "git"
+        },
+        {
+            "name": "sorty",
+            "url": "https://github.com/amalshaji/sorty.git",
+            "method": "git"
+        },
+        {
+            "name": "v-lmath",
+            "url": "https://github.com/lobotony/v-lmath",
+            "method": "git"
+        },
+        {
+            "name": "vbst",
+            "url": "https://github.com/chasekov/vbst",
+            "method": "git"
+        },
+        {
+            "name": "vbase64",
+            "url": "https://github.com/popzxc/vbase64",
+            "method": "git"
+        },
+        {
+            "name": "popzxc-vtest",
+            "url": "https://github.com/popzxc/vtest",
+            "method": "git"
+        },
+        {
+            "name": "r2",
+            "url": "https://github.com/radare/v-r2.git",
+            "method": "git"
+        },
+        {
+            "name": "v-filecheck",
+            "url": "https://github.com/gaurav-gogia/v-filecheck",
+            "method": "git"
+        },
+        {
+            "name": "v-valid",
+            "url": "https://github.com/gaurav-gogia/v-valid",
+            "method": "git"
         }
     ]
 }
