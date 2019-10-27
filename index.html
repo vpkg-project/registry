@@ -6,43 +6,36 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>vpkg registry</title>
 </head>
-<body class="font-sans min-h-screen bg-white">
-    <section class="bg-gray-300 text-center block py-16 w-full">
-        <div class="max-w-5xl mx-auto px-4 sm:px-16 md:px-0">
-            <h1 class="text-6xl mb-4">vpkg <span class="text-gray-700">registry</span></h1>
-            <p class="text-2xl max-w-2xl mx-auto mb-12">An alternative package registry for managing and publishing your V modules. It's free, simple, and straightforward to use.</p>
+<body class="font-sans min-h-screen bg-white border-t-8 border-blue-500">
+    <div class="max-w-6xl flex flex-col md:flex-row px-2 py-8 mx-auto">
+        <section class="w-full md:w-1/4 pb-8 flex flex-col flex-wrap">
+            <div class="px-3 py-6">
+                <h1 class="text-center md:text-left text-4xl mb-4">vpkg <span class="text-gray-700">registry</span></h1>
+                <p class="text-center md:text-left text-lg max-w-2xl mx-auto mb-4">An alternative package registry for managing and publishing your V modules. It's free, simple, and straightforward to use.</p>
+    
+                <div class="flex flex-col mb-8">
+                    <a href="https://github.com/vpkg-project/registry" class="w-full text-center text-md bg-blue-500 hover:bg-blue-700 border-b-4 border-blue-700 font-bold text-white rounded px-6 py-4">Contribute on Github</a>
+                </div>
 
-            <div class="block">
-                <a href="https://github.com/v-pkg/registry" class="inline-block text-md bg-blue-500 hover:bg-blue-700 border-b-4 border-blue-700 font-bold text-white rounded px-8 py-4 mr-2">Contribute on GitHub</a>
-                <a href="#packages" class="inline-block text-md bg-blue-500 hover:bg-blue-700 border-b-4 border-blue-700 font-bold text-white rounded px-8 py-4">Browse the Packages</a>
-            </div>
-        </div>
-    </section>
-    <div class="max-w-5xl px-2 py-8 mx-auto">
-        <section class="pb-8 w-full flex flex-row flex-wrap">
-            <div class="w-1/2 px-3 py-6">
-                <h3 class="text-2xl mb-3 text-gray-600">How can I submit?</h3>
-                <p class="mb-4">To publish, just simply fork the <a class="underline text-blue-500" href="https://github.com/v-pkg/registry/">registry</a>, edit registry.json, and create a pull request. </p>
+                <h3 class="text-2xl mb-3 text-gray-600">How to submit?</h3>
+                <p class="mb-4">Fork the <a class="underline text-blue-500" href="https://github.com/v-pkg/registry/">registry</a>, edit registry.json, and create a pull request. </p>
                 <p class="mb-2">Your module must have the following information:</p>
-                <ul>
+                <ul class="mb-4">
                     <li><span class="bg-gray-300 p-1 rounded font-mono mb-4">name</span> - Name of the module.</li>
                     <li><span class="bg-gray-300 p-1 rounded font-mono mb-4">url</span> - URL to be used to retrieve the package.</li>
                     <li><span class="bg-gray-300 p-1 rounded font-mono mb-4">method</span> - The method of download of downloading the package. (vpkg only supports git for now.)</li>
                 </ul>
-            </div>
-            <div class="w-1/2 px-3 py-6">
-                <h3 class="text-2xl mb-3 text-gray-600">How can I rename my published module?</h3>
-                <p class="mb-4">Renaming a package has the same process of submitting a package to the registry. However, the new name must not be in conflict with other packages as well.</p>
-                <p> We suggest to finalize the new name of the module before submitting it to the registry to avoid unnecessary edits.</p>
+                <p class="mb-4">You can modify the information of your published module. However, it must not have conflicts with other modules to avoid confusion.</p>
+                <p>To prevent this, we suggest to finalize everything before submitting.</p>
             </div>
         </section>
-        <section id="packages" class="pt-8 pb-16 border-t border-gray-500 flex flex-col text-center md:text-left min-h-screen">
-            <div class="w-full flex flex-col items-center pb-8">
-                <h2 class="text-3xl text-center mb-4 text-gray-700 font-bold">There are {{ numberOfPackages }} packages found on the registry.</h2>
-                <input type="text" placeholder="Search modules/packages..." v-model="searchQuery" class="w-full md:w-4/5 p-4 rounded bg-white border border-gray-500 shadow-none focus:shadow-md" />
+        <section id="packages" class="w-full md:w-3/4 pl-4 pt-8 pb-16 flex flex-col text-center md:text-left min-h-screen">
+            <div class="w-full flex flex-col items-center pb-8 p-2">
+                <h2 class="text-3xl text-left mb-4 text-gray-700 font-normal">{{ numberOfPackages }} packages found on the registry.</h2>
+                <input type="text" placeholder="Search modules/packages..." v-model="searchQuery" class="w-full p-4 rounded bg-white border border-gray-500 shadow-none focus:shadow-md" />
             </div>
-            <div v-if="!isLoading" class="w-full flex flex-col md:flex-row flex-wrap -mr-4">
-                <div class="w-full md:w-1/3 p-2" :key="package.name" v-for="package in filteredPackages">
+            <div v-if="!isLoading" class="w-full flex flex-col flex-wrap">
+                <div class="w-full p-2" :key="package.name" v-for="package in filteredPackages">
                     <div class="rounded border border-gray-500 hover:border-gray-700 p-4">
                         <h3 class="text-2xl mb-3 text-gray-600">{{ package.name }}</h3>
                         <code class="bg-gray-300 w-full px-4 py-2 block rounded font-mono mb-4">
