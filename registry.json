@@ -179,6 +179,11 @@
             "name": "v-jsonrpc",
             "url": "https://github.com/nedpals/v-jsonrpc",
             "method": "git"
+        },
+        {
+            "name": "crayon",
+            "url": "https://github.com/thecodrr/crayon",
+            "method": "git"
         }
     ]
 }
