@@ -184,6 +184,31 @@
             "name": "crayon",
             "url": "https://github.com/thecodrr/crayon",
             "method": "git"
+        },
+        {
+            "name": "vraylib",
+            "url": "https://github.com/MajorHard/vraylib",
+            "method": "git"
+        },
+        {
+            "name": "gtk3v",
+            "url": "https://github.com/zenith391/gtk3-v",
+            "method": "git"
+        },
+        {
+            "name": "v-stbiw",
+            "url": "https://github.com/lobotony/v-stbiw",
+            "method": "git"
+        },
+        {
+            "name": "vnk",
+            "url": "https://github.com/nsauzede/vnk",
+            "method": "git"
+        },
+        {
+            "name": "vig",
+            "url": "https://vpm.best/mod/nsauzede.vig",
+            "method": "git"
         }
     ]
 }
