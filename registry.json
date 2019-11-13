@@ -186,6 +186,11 @@
             "method": "git"
         },
         {
+            "name": "boxx",
+            "url": "https://github.com/thecodrr/boxx",
+            "method": "git"
+        },
+        {
             "name": "vraylib",
             "url": "https://github.com/MajorHard/vraylib",
             "method": "git"
