@@ -214,7 +214,7 @@
             "name": "vig",
             "url": "https://vpm.best/mod/nsauzede.vig",
             "method": "git"
-        }
+        },
         {
             "name": "vex",
             "url": "https://github.com/nedpals/vex",
