@@ -219,6 +219,21 @@
             "name": "vex",
             "url": "https://github.com/nedpals/vex",
             "method": "git"
+        },
+        {
+            "name": "lol",
+            "url": "https://github.com/zmeriksen/lol",
+            "method": "git"
+        },
+        {
+            "name": "v-progressbar",
+            "url": "https://github.com/Waqar144/progressbar",
+            "method": "git"
+        },
+        {
+            "name": "graphql",
+            "url": "https://github.com/officialpiyush/graphql-vlang",
+            "method": "git"
         }
     ]
 }
