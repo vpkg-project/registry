@@ -234,6 +234,11 @@
             "name": "graphql",
             "url": "https://github.com/officialpiyush/graphql-vlang",
             "method": "git"
+        },
+        {
+            "name": "yacc",
+            "url": "https://github.com/keito940/yacc-v",
+            "method": "git"
         }
     ]
 }
