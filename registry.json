@@ -7,7 +7,7 @@
         },
         {
             "name": "v-regex",
-            "url": "https://github.com/ShellBear/v-regex",
+            "url": "https://github.com/spytheman/v-regex",
             "method": "git"
         },
         {
@@ -238,6 +238,11 @@
         {
             "name": "yacc",
             "url": "https://github.com/keito940/yacc-v",
+            "method": "git"
+        },
+        {
+            "name": "vgame",
+            "url": "https://github.com/Omega0x013/vgame",
             "method": "git"
         }
     ]
