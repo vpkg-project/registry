@@ -244,6 +244,16 @@
             "name": "vgame",
             "url": "https://github.com/Omega0x013/vgame",
             "method": "git"
+        },
+        {
+            "name": "vave",
+            "url": "https://github.com/thecodrr/vave",
+            "method": "git"
+        },
+        {
+            "name": "vspeech",
+            "url": "https://github.com/thecodrr/vspeech",
+            "method": "git"
         }
     ]
 }
