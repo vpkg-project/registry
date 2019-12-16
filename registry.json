@@ -254,6 +254,11 @@
             "name": "vspeech",
             "url": "https://github.com/thecodrr/vspeech",
             "method": "git"
+        },
+        {
+            "name": "valval",
+            "url": "https://github.com/taojy123/valval",
+            "method": "git"
         }
     ]
 }
