@@ -259,6 +259,11 @@
             "name": "valval",
             "url": "https://github.com/taojy123/valval",
             "method": "git"
+        },
+        {
+            "name": "speedrun",
+            "url": "https://github.com/Iaiao/speedrun",
+            "method": "git"
         }
     ]
 }
