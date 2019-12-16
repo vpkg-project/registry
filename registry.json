@@ -196,8 +196,8 @@
             "method": "git"
         },
         {
-            "name": "gtk3v",
-            "url": "https://github.com/zenith391/gtk3-v",
+            "name": "vgtk3",
+            "url": "https://github.com/zenith391/vgtk3",
             "method": "git"
         },
         {
