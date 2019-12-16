@@ -32,7 +32,7 @@
         </section>
         <section id="packages" class="w-full md:w-3/4 pl-4 pt-8 pb-16 flex flex-col text-center md:text-left min-h-screen">
             <div class="w-full flex flex-col items-center pb-8 p-2">
-                <h2 class="text-3xl text-left mb-4 text-gray-700 font-normal">{{ numberOfPackages }} packages found on the registry.</h2>
+                <h2 class="text-3xl text-left mb-4 text-gray-700 font-normal">{{ numberOfPackages }} packages found.</h2>
                 <input type="text" placeholder="Search modules/packages..." v-model="searchQuery" class="w-full p-4 rounded bg-white border border-gray-500 shadow-none focus:shadow-md" />
             </div>
             <div v-if="!isLoading" class="w-full flex flex-col flex-wrap">
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div v-else class="w-full py-16 text-center">
-                <h2 class="text-gray-600 font-bold text-4xl">Loading</h2>
+                <h2 class="text-gray-600 font-bold text-4xl">Loading...</h2>
             </div>
         </section>
     </div>
@@ -70,19 +70,11 @@
                         vm.packages = response.data.packages;
                         vm.isLoading = false;
                     })
-                    .catch(function(err) {
-                        console.log(err);
-                    });
+                    .catch(function(err) { console.log(err); });
             },
-            data: {
-                packages: [],
-                searchQuery: "",
-                isLoading: true
-            },
+            data: { packages: [], searchQuery: "", isLoading: true },
             computed: {
-                numberOfPackages() {
-                    return this.packages.length === 0 ? 0 : this.packages.length;
-                },
+                numberOfPackages() { var len = this.packages.length; return len === 0 ? 0 : len; },
                 filteredPackages() {
                     var packages = this.packages;
                     var query = this.searchQuery;
