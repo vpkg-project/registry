@@ -264,6 +264,11 @@
             "name": "speedrun",
             "url": "https://github.com/Iaiao/speedrun",
             "method": "git"
+        },
+        {
+            "name": "jsonmap",
+            "url": "https://github.com/Iaiao/jsonmap",
+            "method": "git"
         }
     ]
 }
