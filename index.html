@@ -25,7 +25,7 @@
         <section id="packages" class="w-full md:w-3/4 pl-4 pt-8 pb-16 flex flex-col text-center md:text-left min-h-screen">
             <h2 class="text-3xl text-center md:text-left mb-4 text-gray-700 font-normal p-2">{{ numberOfPackages }} packages found.</h2>
             <div style="top:3%" class="sticky w-full flex flex-col items-center pb-8 px-2">
-                <input type="text" placeholder="Search modules/packages..." :value="searchQuery.raw" @input="setSearchQuery" class="w-full p-4 text-xl md:text-2xl rounded bg-white border border-gray-500 shadow-lg focus:shadow-md" />
+                <input type="text" placeholder="Search modules/packages..." v-model="searchQuery" class="w-full p-4 text-xl md:text-2xl rounded bg-white border border-gray-500 shadow-lg focus:shadow-md" />
             </div>
             <div v-if="!isLoading" class="w-full flex flex-col flex-wrap">
                 <div class="w-full p-2" :key="package.name" v-for="package in filteredPackages">
