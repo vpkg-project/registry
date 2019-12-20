@@ -299,6 +299,12 @@
             "url": "https://github.com/Iaiao/jsonmap",
             "method": "git",
             "vpm": "Iaiao.jsonmap"
+        },
+        {
+            "name": "btree",
+            "url": "https://github.com/ka-weihe/btree-v",
+            "method": "git",
+            "vpm": "ka-weihe.btree"
         }
     ]
 }
