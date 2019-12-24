@@ -311,6 +311,6 @@
             "url": "https://github.com/ulises-jeremias/vsl",
             "method": "git",
             "vpm": "ulises-jeremias.vsl"
-        },
+        }
     ]
 }
