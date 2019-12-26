@@ -305,6 +305,12 @@
             "url": "https://github.com/ka-weihe/btree-v",
             "method": "git",
             "vpm": "ka-weihe.btree"
+        },
+        {
+            "name": "vsl",
+            "url": "https://github.com/ulises-jeremias/vsl",
+            "method": "git",
+            "vpm": "ulises-jeremias.vsl"
         }
     ]
 }
