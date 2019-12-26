@@ -311,6 +311,12 @@
             "url": "https://github.com/ulises-jeremias/vsl",
             "method": "git",
             "vpm": "ulises-jeremias.vsl"
+        },
+        {
+            "name": "v-miniaudio",
+            "url": "https://github.com/Larpon/v-miniaudio",
+            "method": "git",
+            "vpm": "Larpon.miniaudio"
         }
     ]
 }
