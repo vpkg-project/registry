@@ -317,6 +317,12 @@
             "url": "https://github.com/Larpon/v-miniaudio",
             "method": "git",
             "vpm": "Larpon.miniaudio"
+        },
+        {
+            "name": "color",
+            "url": "https://github.com/pegasus-toolset/color",
+            "method": "git",
+            "vpm": ""
         }
     ]
 }
