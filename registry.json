@@ -1,130 +1,16 @@
 {
     "packages": [
         {
-            "name": "owmw",
-            "url": "https://github.com/bowero/owmw",
+            "name": "boxx",
+            "url": "https://github.com/thecodrr/boxx",
             "method": "git",
-            "vpm": "Bowero.owmw"
+            "vpm": "thecodrr.boxx"
         },
         {
-            "name": "v-regex",
-            "url": "https://github.com/spytheman/v-regex",
+            "name": "btree",
+            "url": "https://github.com/ka-weihe/btree-v",
             "method": "git",
-            "vpm": "spytheman.regex"
-        },
-        {
-            "name": "v-mime",
-            "url": "https://github.com/nedpals/v-mime",
-            "method": "git",
-            "vpm": "nedpals.mime"
-        },
-        {
-            "name": "vargs",
-            "url": "https://github.com/nedpals/vargs",
-            "method": "git",
-            "vpm": "nedpals.args"
-        },
-        {
-            "name": "vgram",
-            "url": "https://github.com/vpervenditti/vgram",
-            "method": "git",
-            "vpm": "vpervenditti.vgram"
-        },
-        {
-            "name": "vgl",
-            "url": "https://github.com/justicesuh/vgl",
-            "method": "git",
-            "vpm": "justicesuh.vgl"
-        },
-        {
-            "name": "vrobot",
-            "url": "https://github.com/eioo/vrobot",
-            "method": "git",
-            "vpm": "eioo.vrobot"
-        },
-        {
-            "name": "glfw",
-            "url": "https://github.com/vlang/glfw",
-            "method": "git",
-            "vpm": "glfw"
-        },
-        {
-            "name": "ui",
-            "url": "https://github.com/vlang/ui",
-            "method": "git",
-            "vpm": "ui"
-        },
-        {
-            "name": "voltcord",
-            "url": "https://github.com/HedariKun/voltcord",
-            "method": "git",
-            "vpm": "HedariKun.voltcord"
-        },
-        {
-            "name": "vsdl2",
-            "url": "https://github.com/nsauzede/vsdl2",
-            "method": "git",
-            "vpm": "nsauzede.vsdl2"
-        },
-        {
-            "name": "vini",
-            "url": "https://github.com/spytheman/vini",
-            "method": "git",
-            "vpm": "spytheman.vini"
-        },
-        {
-            "name": "picoev",
-            "url": "https://github.com/S-YOU/picoev.v",
-            "method": "git",
-            "vpm": "syou.picoev"
-        },
-        {
-            "name": "riv",
-            "url": "https://github.com/Bowero/riv",
-            "method": "git",
-            "vpm": "Bower.riv"
-        },
-        {
-            "name": "vconrand",
-            "url": "https://github.com/nevrome/vconrand",
-            "method": "git",
-            "vpm": "nevrome.vconrand"
-        },
-        {
-            "name": "vperlin",
-            "url": "https://github.com/spytheman/vperlin",
-            "method": "git",
-            "vpm": "spytheman.vperlin"
-        },
-        {
-            "name": "vtwitchbot",
-            "url": "https://github.com/prooxeydev/vtwitchbot",
-            "method": "git",
-            "vpm": "prooxeydev.vtwitchbot"
-        },
-        {
-            "name": "vttable",
-            "url": "https://github.com/tianyazc/vttable",
-            "method": "git",
-            "vpm": "tianyazc.vttable"
-        },
-        {
-            "name": "v-ldata",
-            "url": "https://github.com/lobotony/v-ldata",
-            "method": "git",
-            "vpm": "lobotony.ldata"
-        },
-        {
-            "name": "v-bitmap",
-            "url": "https://github.com/lobotony/v-bitmap",
-            "method": "git",
-            "vpm": "lobotony.bitmap"
-        },
-        {
-            "name": "v-stbtt",
-            "url": "https://github.com/lobotony/v-stbtt",
-            "method": "git",
-            "vpm": "lobotony.stbtt"
+            "vpm": "ka-weihe.btree"
         },
         {
             "name": "chalk",
@@ -133,34 +19,52 @@
             "vpm": "etienne-napoleone.chalk"
         },
         {
-            "name": "veasing",
-            "url": "https://github.com/jamestomasino/veasing",
+            "name": "color",
+            "url": "https://github.com/pegasus-toolset/color",
             "method": "git",
-            "vpm": "jamestomasino.veasing"
+            "vpm": ""
         },
         {
-            "name": "sorty",
-            "url": "https://github.com/amalshaji/sorty",
+            "name": "crayon",
+            "url": "https://github.com/thecodrr/crayon",
             "method": "git",
-            "vpm": "amalshaji.sorty"
+            "vpm": "thecodrr.crayon"
         },
         {
-            "name": "v-lmath",
-            "url": "https://github.com/lobotony/v-lmath",
+            "name": "glfw",
+            "url": "https://github.com/vlang/glfw",
             "method": "git",
-            "vpm": "lobotony.lmath"
+            "vpm": "glfw"
         },
         {
-            "name": "vbst",
-            "url": "https://github.com/chasekov/vbst",
+            "name": "graphql",
+            "url": "https://github.com/officialpiyush/graphql-vlang",
             "method": "git",
-            "vpm": "Chase-K.vbst"
+            "vpm": "piyush.graphql"
         },
         {
-            "name": "vbase64",
-            "url": "https://github.com/popzxc/vbase64",
+            "name": "jsonmap",
+            "url": "https://github.com/Iaiao/jsonmap",
             "method": "git",
-            "vpm": "popzxc.vbase64"
+            "vpm": "Iaiao.jsonmap"
+        },
+        {
+            "name": "lol",
+            "url": "https://github.com/zmeriksen/lol",
+            "method": "git",
+            "vpm": "zmeriksen.lol"
+        },
+        {
+            "name": "owmw",
+            "url": "https://github.com/bowero/owmw",
+            "method": "git",
+            "vpm": "Bowero.owmw"
+        },
+        {
+            "name": "picoev",
+            "url": "https://github.com/S-YOU/picoev.v",
+            "method": "git",
+            "vpm": "syou.picoev"
         },
         {
             "name": "popzxc-vtest",
@@ -175,118 +79,16 @@
             "vpm": "radare.r2"
         },
         {
-            "name": "v-filecheck",
-            "url": "https://github.com/gaurav-gogia/v-filecheck",
+            "name": "riv",
+            "url": "https://github.com/Bowero/riv",
             "method": "git",
-            "vpm": "gaurav-gogia.filecheck"
+            "vpm": "Bower.riv"
         },
         {
-            "name": "v-valid",
-            "url": "https://github.com/gaurav-gogia/v-valid",
+            "name": "sorty",
+            "url": "https://github.com/amalshaji/sorty",
             "method": "git",
-            "vpm": "gaurav-gogia.valid"
-        },
-        {
-            "name": "v-jsonrpc",
-            "url": "https://github.com/nedpals/v-jsonrpc",
-            "method": "git",
-            "vpm": "nedpals.jsonrpc"
-        },
-        {
-            "name": "crayon",
-            "url": "https://github.com/thecodrr/crayon",
-            "method": "git",
-            "vpm": "thecodrr.crayon"
-        },
-        {
-            "name": "boxx",
-            "url": "https://github.com/thecodrr/boxx",
-            "method": "git",
-            "vpm": "thecodrr.boxx"
-        },
-        {
-            "name": "vraylib",
-            "url": "https://github.com/MajorHard/vraylib",
-            "method": "git",
-            "vpm": "damienfame75.vraylib"
-        },
-        {
-            "name": "vgtk3",
-            "url": "https://github.com/zenith391/vgtk3",
-            "method": "git",
-            "vpm": "zenith391.vgtk3"
-        },
-        {
-            "name": "v-stbiw",
-            "url": "https://github.com/lobotony/v-stbiw",
-            "method": "git",
-            "vpm": "lobotony.stbiw"
-        },
-        {
-            "name": "vnk",
-            "url": "https://github.com/nsauzede/vnk",
-            "method": "git",
-            "vpm": "nsauzede.vnk"
-        },
-        {
-            "name": "vig",
-            "url": "https://vpm.best/mod/nsauzede.vig",
-            "method": "git",
-            "vpm": "nsauzede.vig"
-        },
-        {
-            "name": "vex",
-            "url": "https://github.com/nedpals/vex",
-            "method": "git",
-            "vpm": "nedpals.vex"
-        },
-        {
-            "name": "lol",
-            "url": "https://github.com/zmeriksen/lol",
-            "method": "git",
-            "vpm": "zmeriksen.lol"
-        },
-        {
-            "name": "v-progressbar",
-            "url": "https://github.com/Waqar144/progressbar",
-            "method": "git",
-            "vpm": "Waqar144.progressbar"
-        },
-        {
-            "name": "graphql",
-            "url": "https://github.com/officialpiyush/graphql-vlang",
-            "method": "git",
-            "vpm": "piyush.graphql"
-        },
-        {
-            "name": "yacc",
-            "url": "https://github.com/keito940/yacc-v",
-            "method": "git",
-            "vpm": "keito940.yacc"
-        },
-        {
-            "name": "vgame",
-            "url": "https://github.com/Omega0x013/vgame",
-            "method": "git",
-            "vpm": "Omega0x013.vgame"
-        },
-        {
-            "name": "vave",
-            "url": "https://github.com/thecodrr/vave",
-            "method": "git",
-            "vpm": "thecodrr.vave"
-        },
-        {
-            "name": "vspeech",
-            "url": "https://github.com/thecodrr/vspeech",
-            "method": "git",
-            "vpm": "thecodrr.vspeech"
-        },
-        {
-            "name": "valval",
-            "url": "https://github.com/taojy123/valval",
-            "method": "git",
-            "vpm": "taojy123.valval"
+            "vpm": "amalshaji.sorty"
         },
         {
             "name": "speedrun",
@@ -295,22 +97,46 @@
             "vpm": "Iaiao.speedrun"
         },
         {
-            "name": "jsonmap",
-            "url": "https://github.com/Iaiao/jsonmap",
+            "name": "ui",
+            "url": "https://github.com/vlang/ui",
             "method": "git",
-            "vpm": "Iaiao.jsonmap"
+            "vpm": "ui"
         },
         {
-            "name": "btree",
-            "url": "https://github.com/ka-weihe/btree-v",
+            "name": "v-bitmap",
+            "url": "https://github.com/lobotony/v-bitmap",
             "method": "git",
-            "vpm": "ka-weihe.btree"
+            "vpm": "lobotony.bitmap"
         },
         {
-            "name": "vsl",
-            "url": "https://github.com/ulises-jeremias/vsl",
+            "name": "v-filecheck",
+            "url": "https://github.com/gaurav-gogia/v-filecheck",
             "method": "git",
-            "vpm": "ulises-jeremias.vsl"
+            "vpm": "gaurav-gogia.filecheck"
+        },
+        {
+            "name": "v-jsonrpc",
+            "url": "https://github.com/nedpals/v-jsonrpc",
+            "method": "git",
+            "vpm": "nedpals.jsonrpc"
+        },
+        {
+            "name": "v-ldata",
+            "url": "https://github.com/lobotony/v-ldata",
+            "method": "git",
+            "vpm": "lobotony.ldata"
+        },
+        {
+            "name": "v-lmath",
+            "url": "https://github.com/lobotony/v-lmath",
+            "method": "git",
+            "vpm": "lobotony.lmath"
+        },
+        {
+            "name": "v-mime",
+            "url": "https://github.com/nedpals/v-mime",
+            "method": "git",
+            "vpm": "nedpals.mime"
         },
         {
             "name": "v-miniaudio",
@@ -319,10 +145,184 @@
             "vpm": "Larpon.miniaudio"
         },
         {
-            "name": "color",
-            "url": "https://github.com/pegasus-toolset/color",
+            "name": "v-progressbar",
+            "url": "https://github.com/Waqar144/progressbar",
             "method": "git",
-            "vpm": ""
+            "vpm": "Waqar144.progressbar"
+        },
+        {
+            "name": "v-regex",
+            "url": "https://github.com/spytheman/v-regex",
+            "method": "git",
+            "vpm": "spytheman.regex"
+        },
+        {
+            "name": "v-stbiw",
+            "url": "https://github.com/lobotony/v-stbiw",
+            "method": "git",
+            "vpm": "lobotony.stbiw"
+        },
+        {
+            "name": "v-stbtt",
+            "url": "https://github.com/lobotony/v-stbtt",
+            "method": "git",
+            "vpm": "lobotony.stbtt"
+        },
+        {
+            "name": "v-valid",
+            "url": "https://github.com/gaurav-gogia/v-valid",
+            "method": "git",
+            "vpm": "gaurav-gogia.valid"
+        },
+        {
+            "name": "valval",
+            "url": "https://github.com/taojy123/valval",
+            "method": "git",
+            "vpm": "taojy123.valval"
+        },
+        {
+            "name": "vargs",
+            "url": "https://github.com/nedpals/vargs",
+            "method": "git",
+            "vpm": "nedpals.args"
+        },
+        {
+            "name": "vave",
+            "url": "https://github.com/thecodrr/vave",
+            "method": "git",
+            "vpm": "thecodrr.vave"
+        },
+        {
+            "name": "vbase64",
+            "url": "https://github.com/popzxc/vbase64",
+            "method": "git",
+            "vpm": "popzxc.vbase64"
+        },
+        {
+            "name": "vbst",
+            "url": "https://github.com/chasekov/vbst",
+            "method": "git",
+            "vpm": "Chase-K.vbst"
+        },
+        {
+            "name": "vconrand",
+            "url": "https://github.com/nevrome/vconrand",
+            "method": "git",
+            "vpm": "nevrome.vconrand"
+        },
+        {
+            "name": "veasing",
+            "url": "https://github.com/jamestomasino/veasing",
+            "method": "git",
+            "vpm": "jamestomasino.veasing"
+        },
+        {
+            "name": "vex",
+            "url": "https://github.com/nedpals/vex",
+            "method": "git",
+            "vpm": "nedpals.vex"
+        },
+        {
+            "name": "vgame",
+            "url": "https://github.com/Omega0x013/vgame",
+            "method": "git",
+            "vpm": "Omega0x013.vgame"
+        },
+        {
+            "name": "vgl",
+            "url": "https://github.com/justicesuh/vgl",
+            "method": "git",
+            "vpm": "justicesuh.vgl"
+        },
+        {
+            "name": "vgram",
+            "url": "https://github.com/vpervenditti/vgram",
+            "method": "git",
+            "vpm": "vpervenditti.vgram"
+        },
+        {
+            "name": "vgtk3",
+            "url": "https://github.com/zenith391/vgtk3",
+            "method": "git",
+            "vpm": "zenith391.vgtk3"
+        },
+        {
+            "name": "vig",
+            "url": "https://vpm.best/mod/nsauzede.vig",
+            "method": "git",
+            "vpm": "nsauzede.vig"
+        },
+        {
+            "name": "vini",
+            "url": "https://github.com/spytheman/vini",
+            "method": "git",
+            "vpm": "spytheman.vini"
+        },
+        {
+            "name": "vnk",
+            "url": "https://github.com/nsauzede/vnk",
+            "method": "git",
+            "vpm": "nsauzede.vnk"
+        },
+        {
+            "name": "voltcord",
+            "url": "https://github.com/HedariKun/voltcord",
+            "method": "git",
+            "vpm": "HedariKun.voltcord"
+        },
+        {
+            "name": "vperlin",
+            "url": "https://github.com/spytheman/vperlin",
+            "method": "git",
+            "vpm": "spytheman.vperlin"
+        },
+        {
+            "name": "vraylib",
+            "url": "https://github.com/MajorHard/vraylib",
+            "method": "git",
+            "vpm": "damienfame75.vraylib"
+        },
+        {
+            "name": "vrobot",
+            "url": "https://github.com/eioo/vrobot",
+            "method": "git",
+            "vpm": "eioo.vrobot"
+        },
+        {
+            "name": "vsdl2",
+            "url": "https://github.com/nsauzede/vsdl2",
+            "method": "git",
+            "vpm": "nsauzede.vsdl2"
+        },
+        {
+            "name": "vsl",
+            "url": "https://github.com/ulises-jeremias/vsl",
+            "method": "git",
+            "vpm": "ulises-jeremias.vsl"
+        },
+        {
+            "name": "vspeech",
+            "url": "https://github.com/thecodrr/vspeech",
+            "method": "git",
+            "vpm": "thecodrr.vspeech"
+        },
+        {
+            "name": "vttable",
+            "url": "https://github.com/tianyazc/vttable",
+            "method": "git",
+            "vpm": "tianyazc.vttable"
+        },
+        {
+            "name": "vtwitchbot",
+            "url": "https://github.com/prooxeydev/vtwitchbot",
+            "method": "git",
+            "vpm": "prooxeydev.vtwitchbot"
+        },
+        {
+            "name": "yacc",
+            "url": "https://github.com/keito940/yacc-v",
+            "method": "git",
+            "vpm": "keito940.yacc"
         }
     ]
 }
