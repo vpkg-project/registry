@@ -317,6 +317,12 @@
             "url": "https://github.com/Larpon/v-miniaudio",
             "method": "git",
             "vpm": "Larpon.miniaudio"
+        },
+        {
+            "name": "vnum",
+            "url": "https://github.com/vlang-num/vnum",
+            "method": "git",
+            "vpm": "christopherzimmerman.vnum"
         }
     ]
 }
