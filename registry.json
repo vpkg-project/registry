@@ -323,6 +323,18 @@
             "url": "https://github.com/vlang-num/vnum",
             "method": "git",
             "vpm": "christopherzimmerman.vnum"
+        },
+        {
+            "name": "color",
+            "url": "https://github.com/pegasus-toolset/color",
+            "method": "git",
+            "vpm": "pegasus-toolset.color"
+        },
+        {
+            "name": "colors",
+            "url": "https://github.com/alexesprit/colors",
+            "method": "git",
+            "vpm": "alexesprit.colors"
         }
     ]
 }
