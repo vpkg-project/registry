@@ -81,13 +81,11 @@
                     var scrollTop = document.documentElement.scrollTop;
 
                     if (newQuery != oldQuery && scrollTop != 0) {
-                        this.scrollTop = 0;
                         setTimeout(function(){ window.scrollTo(0, 0); }, 300);
                     }
                 }
             },
             methods: {
-                scrollToTop(e) { this.scrollTop = e.target.documentElement.scrollTop; },
                 getPkgCommand(package) { return this.useVpm ? 'v install ' + package.vpm : 'vpkg get ' + package.name; }
             },
             computed: {
@@ -96,9 +94,7 @@
                     var packages = this.packages;
                     var query = this.searchQuery;
 
-                    if (query.length > 1) {
-                        packages = packages.filter(function(pkg) { return pkg.name.indexOf(query) !== -1; });
-                    }
+                    if (query.length > 1) { packages = packages.filter(function(pkg) { return pkg.name.indexOf(query) !== -1; }); }
 
                     return packages.sort(function(a, b) {
                         var c = a.name.toLowerCase();
