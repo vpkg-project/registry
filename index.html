@@ -5,34 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
     <title>vpkg registry</title>
 </head>
 <body class="font-sans min-h-screen bg-white border-t-8 border-blue-500">
     <div class="max-w-6xl flex flex-col md:flex-row px-2 py-8 mx-auto h-full">
-        <section class="md:top-0 md:sticky w-full md:w-1/4 pb-8 flex flex-col self-start flex-wrap">
-            <div class="px-3 py-6">
+        <section class="md:top-0 md:sticky w-full md:w-1/4 md:pr-2 md:pb-4 flex flex-col self-start flex-wrap">
+            <div class="px-3 pt-6">
                 <h1 class="text-center md:text-left text-4xl mb-4">vpkg <span class="text-gray-700">registry</span></h1>
                 <p class="text-center md:text-left text-lg max-w-2xl mx-auto mb-4">An alternative package registry for managing and publishing your V modules. It's free, simple, and straightforward to use.</p>
     
                 <div class="flex flex-col mb-8">
-                    <a href="https://github.com/vpkg-project/registry" class="w-full text-center text-md bg-blue-500 hover:bg-blue-700 border-b-4 border-blue-700 font-bold text-white rounded px-6 py-4">Contribute on Github</a>
+                    <a href="https://github.com/vpkg-project/registry" class="w-full text-center text-md bg-blue-500 hover:bg-blue-700 shadow border-blue-700 font-bold text-white rounded px-6 py-4">Contribute on Github</a>
                 </div>
-
-                <h3 class="text-2xl mb-3 text-gray-600">How to submit?</h3>
-                <p class="mb-4">See the <a class="underline text-blue-500" href="https://github.com/vpkg-project/registry#Adding-packages-to-the-list">Adding packages to the list</a> section of the README for the updated instructions. </p>
+                <div>
+                    <h3 class="text-2xl mb-3 text-gray-600">How to submit?</h3>
+                    <p class="mb-4">See the <a class="underline text-blue-500" href="https://github.com/vpkg-project/registry#Adding-packages-to-the-list">Adding packages to the list</a> section of the README for the updated instructions. </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl mb-3 text-gray-600">Run your own registry</h3>
+                    <p class="mb-4">Use the <a class="underline text-blue-500" href="https://github.com/vpkg-project/registry-template">registry server template</a> to start running your own registry server. Just modify registry.json and use any http or web library of your choice to get up and running.</p>
+                </div>
             </div>
         </section>
-        <section id="packages" class="w-full md:w-3/4 pl-4 pt-8 pb-16 flex flex-col text-center md:text-left min-h-screen">
-            <h2 class="text-3xl text-center md:text-left mb-4 text-gray-700 font-normal p-2">{{ numberOfPackages }} packages found.</h2>
+        <section id="packages" class="w-full md:w-3/4 md:pl-2 pt-2 md:pt-8 pb-16 flex flex-col text-center md:text-left min-h-screen">
+            <div class="px-2 pb-2 flex flex-col md:flex-row justify-between">
+                <h2 class="text-3xl text-center md:text-left mb-4 text-gray-700 font-normal">{{ numberOfPackages }} packages found.</h2>
+                <button :class="[useVpm ? 'bg-blue-600 hover:bg-blue-800' : 'bg-blue-500 hover:bg-blue-700']" class="self-start text-center text-sm shadow border-blue-700 font-bold text-white rounded px-4 py-2" @click="useVpm = !useVpm">Use VPM install command: {{ useVpm }}</button>
+            </div>
             <div style="top:3%" class="sticky w-full flex flex-col items-center pb-8 px-2">
-                <input type="text" placeholder="Search modules/packages..." v-model="searchQuery" class="w-full p-4 text-xl md:text-2xl rounded bg-white border border-gray-500 shadow-lg focus:shadow-md" />
+                <input type="text" placeholder="Search modules/packages..." v-model="searchQuery" class="w-full p-4 mb-2 text-xl md:text-2xl rounded bg-white border border-gray-500 shadow-lg focus:shadow-md" />
             </div>
             <div v-if="!isLoading" class="w-full flex flex-col flex-wrap">
-                <div class="w-full p-2" :key="package.name" v-for="package in filteredPackages">
-                    <div class="rounded border border-gray-500 hover:border-gray-700 p-4">
+                <div class="w-full px-2" :key="package.name" v-for="package in filteredPackages">
+                    <div class="border-b border-gray-500 hover:border-gray-700 py-4">
                         <h3 class="text-2xl mb-3 text-gray-600">{{ package.name }}</h3>
-                        <code class="bg-gray-300 w-full px-4 py-2 block rounded font-mono mb-4">
-                            vpkg get {{ package.name }}
+                        <code class="bg-gray-300 w-full p-4 block rounded font-mono mb-4">
+                            {{ getPkgCommand(package) }}
                         </code>
                         <a :href="package.url" class="text-underline text-sm text-gray-600 hover:text-gray-700">{{ package.url }}</a>
                     </div>
@@ -40,6 +51,9 @@
             </div>
             <div v-else class="w-full py-16 text-center">
                 <h2 class="text-gray-600 font-bold text-4xl">Loading...</h2>
+            </div>
+            <div class="px-2" v-if="filteredPackages.length == 0">
+                <h2 class="text-gray-600 font-bold text-4xl">No search results found</h2>
             </div>
         </section>
     </div>
@@ -58,13 +72,25 @@
                 var vm = this;
                 
                 axios.get(server + "/registry.json")
-                    .then(function (response) {
-                        vm.packages = response.data.packages;
-                        vm.isLoading = false;
-                    })
+                    .then(function (response) { vm.packages = response.data.packages; vm.isLoading = false; })
                     .catch(function(err) { console.log(err); });
+
+                window.addEventListener("scroll", this.scrollToTop);
             },
-            data: { packages: [], searchQuery: "", isLoading: true },
+            beforeDestroy() { window.removeEventListener("scroll", this.scrollToTop); },
+            data: { scrollTop: 0, packages: [], searchQuery: "", useVpm: false, isLoading: true },
+            watch: {
+                searchQuery: function (oldQuery, newQuery) {
+                    if (newQuery != oldQuery && this.scrollTop != 0) {
+                        this.scrollTop = 0;
+                        setTimeout(function(){ window.scrollTo(0, this.scrollTop); }, 300);
+                    }
+                }
+            },
+            methods: {
+                scrollToTop(e) { this.scrollTop = e.target.documentElement.scrollTop; },
+                getPkgCommand(package) { return this.useVpm ? 'v install ' + package.vpm : 'vpkg get ' + package.name; }
+            },
             computed: {
                 numberOfPackages() { var len = this.packages.length; return len === 0 ? 0 : len; },
                 filteredPackages() {
@@ -72,9 +98,7 @@
                     var query = this.searchQuery;
 
                     if (query.length > 1) {
-                        packages = packages.filter(function(pkg) {
-                            return pkg.name.indexOf(query) !== -1;
-                        });
+                        packages = packages.filter(function(pkg) { return pkg.name.indexOf(query) !== -1; });
                     }
 
                     return packages.sort(function(a, b) {
