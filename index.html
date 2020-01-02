@@ -74,16 +74,15 @@
                 axios.get(server + "/registry.json")
                     .then(function (response) { vm.packages = response.data.packages; vm.isLoading = false; })
                     .catch(function(err) { console.log(err); });
-
-                window.addEventListener("scroll", this.scrollToTop);
             },
-            beforeDestroy() { window.removeEventListener("scroll", this.scrollToTop); },
-            data: { scrollTop: 0, packages: [], searchQuery: "", useVpm: false, isLoading: true },
+            data: { packages: [], searchQuery: "", useVpm: false, isLoading: true },
             watch: {
                 searchQuery: function (oldQuery, newQuery) {
-                    if (newQuery != oldQuery && this.scrollTop != 0) {
+                    var scrollTop = document.documentElement.scrollTop;
+
+                    if (newQuery != oldQuery && scrollTop != 0) {
                         this.scrollTop = 0;
-                        setTimeout(function(){ window.scrollTo(0, this.scrollTop); }, 300);
+                        setTimeout(function(){ window.scrollTo(0, 0); }, 300);
                     }
                 }
             },
