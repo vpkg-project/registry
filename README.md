@@ -10,6 +10,7 @@ To add packages, simply fork this repository, edit [registry.json](registry.json
 - `name` - Name of the package
 - `url` - URL to be used to retrieve the package.
 - `method` - The method of download of downloading the package. (vpkg supports `git`, `hg`, and `svn`)
+- `vpm` - Name of the package submitted to the VPM registry. (If you haven't submitted it yet, you can just take the Github username and the name of your module and put a dot in between as your VPM package name.)
 
 ### Requirements
 In order for your pull request to have more chances of getting accepted into the registry, your package must be compliant with the set of rules listed below:
