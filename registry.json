@@ -343,7 +343,7 @@
             "vpm": "alexesprit.semver"
         },
         {
-            "name": "vmwxml",
+            "name": "vwxml",
             "url": "https://github.com/zenith391/vwxml",
             "method": "git",
             "vpm": "zenith391.vwxml"
