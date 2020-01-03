@@ -335,6 +335,18 @@
             "url": "https://github.com/alexesprit/colors",
             "method": "git",
             "vpm": "alexesprit.colors"
+        }.
+        {
+            "name": "semver",
+            "url": "https://github.com/alexesprit/semver",
+            "method": "git",
+            "vpm": "alexesprit.semver"
+        },
+        {
+            "name": "vmwxml",
+            "url": "https://github.com/zenith391/vwxml",
+            "method": "git",
+            "vpm": "zenith391.vwxml"
         }
     ]
 }
