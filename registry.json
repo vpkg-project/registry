@@ -335,7 +335,7 @@
             "url": "https://github.com/alexesprit/colors",
             "method": "git",
             "vpm": "alexesprit.colors"
-        }.
+        },
         {
             "name": "semver",
             "url": "https://github.com/alexesprit/semver",
