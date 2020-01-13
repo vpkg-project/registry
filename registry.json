@@ -286,7 +286,7 @@
             "name": "valval",
             "url": "https://github.com/taojy123/valval",
             "method": "git",
-            "vpm": "taojy123.valval"
+            "vpm": "watchmen123456.valval"
         },
         {
             "name": "speedrun",
@@ -347,6 +347,12 @@
             "url": "https://github.com/zenith391/vwxml",
             "method": "git",
             "vpm": "zenith391.vwxml"
+        },
+        {
+            "name": "v-hashmap",
+            "url": "https://github.com/xcloudfance/v-hashmap",
+            "method": "git",
+            "vpm": "XcloudFance.hashmap"
         }
     ]
 }
