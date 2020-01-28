@@ -212,9 +212,9 @@
         },
         {
             "name": "vgtk3",
-            "url": "https://github.com/zenith391/vgtk3",
+            "url": "https://github.com/vgtk/vgtk3",
             "method": "git",
-            "vpm": "zenith391.vgtk3"
+            "vpm": "vgtk.vgtk3"
         },
         {
             "name": "v-stbiw",
