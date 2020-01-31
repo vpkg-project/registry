@@ -211,6 +211,12 @@
             "vpm": "damienfame75.vraylib"
         },
         {
+            "name": "vgobject",
+            "url": "https://github.com/vgtk/vgobject",
+            "method": "git",
+            "vpm": "vgtk.vgobject"
+        },
+        {
             "name": "vgtk3",
             "url": "https://github.com/vgtk/vgtk3",
             "method": "git",
