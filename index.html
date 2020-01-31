@@ -33,7 +33,7 @@
         <section id="packages" class="w-full md:w-3/4 md:pl-2 pt-2 md:pt-8 pb-16 flex flex-col text-center md:text-left min-h-screen">
             <div class="px-2 pb-2 flex flex-col md:flex-row md:justify-between">
                 <h2 class="text-3xl text-center md:text-left mb-4 text-gray-700 font-normal">{{ numberOfPackages }} packages found.</h2>
-                <button :class="[useVpm ? 'bg-blue-600 hover:bg-blue-800' : 'bg-blue-500 hover:bg-blue-700']" class="md:self-start text-center text-sm shadow border-blue-700 font-bold text-white rounded px-4 py-2" @click="useVpm = !useVpm">Use VPM install command: {{ useVpm }}</button>
+                <button :class="[useVpm ? 'bg-blue-600 hover:bg-blue-800' : 'bg-blue-500 hover:bg-blue-700']" class="md:self-start text-center text-sm shadow border-blue-700 font-bold text-white rounded px-4 py-2" @click="useVpm = !useVpm">Use {{ useVpm ? 'vpkg': 'vpm' }} install command instead</button>
             </div>
             <div style="top:3%" class="sticky w-full flex flex-col items-center pb-8 px-2">
                 <input type="text" placeholder="Search modules/packages..." v-model="searchQuery" class="w-full p-4 mb-2 text-xl md:text-2xl rounded bg-white border border-gray-500 shadow-lg focus:shadow-md" />
