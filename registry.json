@@ -359,6 +359,18 @@
             "url": "https://github.com/xcloudfance/v-hashmap",
             "method": "git",
             "vpm": "XcloudFance.hashmap"
+        },
+        {
+            "name": "vape",
+            "url": "https://github.com/exastencil/vape",
+            "method": "git",
+            "vpm": "exastencil.vape"
+        },
+        {
+            "name": "vproto",
+            "url": "https://github.com/emily33901/vproto",
+            "method": "git",
+            "vpm": "emily33901.vproto"
         }
     ]
 }
