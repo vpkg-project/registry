@@ -42,8 +42,9 @@
                 <div class="w-full px-2" :key="package.name" v-for="package in filteredPackages">
                     <div class="border-b border-gray-500 hover:border-gray-700 py-4">
                         <h3 class="text-2xl mb-3 text-gray-600">{{ package.name }}</h3>
-                        <code class="bg-gray-300 w-full p-4 block rounded font-mono mb-4">
+                        <code class="bg-gray-300 w-full p-4 block rounded font-mono mb-4" style="position: relative;">
                             {{ getPkgCommand(package) }}
+                            <button class="bg-gray-400 rounded p-1" style="position: absolute;right: 1em;" title="Click to copy" @click="copy(package)">copy</button>
                         </code>
                         <a :href="package.url" class="text-underline text-sm text-gray-600 hover:text-gray-700">{{ package.url }}</a>
                     </div>
@@ -97,7 +98,15 @@
                     this.pkgScrollTop = document.getElementById("packages").offsetTop; 
                     console.log(this.pkgScrollTop);
                 }, 
-                getPkgCommand(package) { return this.useVpm ? 'v install ' + package.vpm : 'vpkg get ' + package.name; }
+                getPkgCommand(package) { return this.useVpm ? 'v install ' + package.vpm : 'vpkg get ' + package.name; },
+                copy(package) {
+                    var txtarea = document.createElement("textarea")
+                    this.$el.appendChild(txtarea)
+                    txtarea.value = this.getPkgCommand(package)
+                    txtarea.select()
+                    document.execCommand("copy")
+                    this.$el.removeChild(txtarea)
+                }
             },
             computed: {
                 numberOfPackages() { var len = this.packages.length; return len === 0 ? 0 : len; },
