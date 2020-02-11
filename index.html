@@ -9,6 +9,13 @@
         html { scroll-behavior: smooth; }
     </style>
     <title>vpkg registry</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body class="font-sans min-h-screen bg-white border-t-8 border-blue-500">
     <div class="max-w-6xl flex flex-col md:flex-row px-2 py-8 mx-auto h-full">
@@ -88,7 +95,7 @@
                     var vm = this;
 
                     if (newQuery != oldQuery && scrollTop != 0) {
-                        console.log(vm.pkgScrollTop);
+                        // console.log(vm.pkgScrollTop);
                         setTimeout(function(){ window.scrollTo(0, vm.pkgScrollTop); }, 300);
                     }
                 }
@@ -96,7 +103,7 @@
             methods: {
                 getPkgScrollTop(e) { 
                     this.pkgScrollTop = document.getElementById("packages").offsetTop; 
-                    console.log(this.pkgScrollTop);
+                    // console.log(this.pkgScrollTop);
                 }, 
                 getPkgCommand(package) { return this.useVpm ? 'v install ' + package.vpm : 'vpkg get ' + package.name; },
                 copy(package) {
