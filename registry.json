@@ -371,6 +371,12 @@
             "url": "https://github.com/emily33901/vproto",
             "method": "git",
             "vpm": "emily33901.vproto"
+        },
+        {
+            "name": "mark_it_down",
+            "url": "https://github.com/adlesh/mark_it_down",
+            "method": "git",
+            "vpm": "adlesh.mathx"
         }
     ]
 }
