@@ -170,7 +170,7 @@
         },
         {
             "name": "r2",
-            "url": "https://github.com/radare/v-r2.git",
+            "url": "https://github.com/radare/v-r2",
             "method": "git",
             "vpm": "radare.r2"
         },
@@ -314,7 +314,7 @@
         },
         {
             "name": "vsl",
-            "url": "https://github.com/ulises-jeremias/vsl",
+            "url": "https://github.com/vlang/vsl",
             "method": "git",
             "vpm": "ulises-jeremias.vsl"
         },
