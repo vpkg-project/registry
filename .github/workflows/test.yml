@@ -1,0 +1,17 @@
+name: Test
+on:
+  push:
+    branches: [master]
+  pull_request:
+    types: [opened, synchronize]
+jobs:
+  run-url-check:
+    name: Run URL check
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12.13.1
+    - name: Run URL check
+      run: node ./.github/workflows/url-check.js
