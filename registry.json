@@ -377,6 +377,12 @@
             "url": "https://github.com/adlesh/mark_it_down",
             "method": "git",
             "vpm": "adlesh.mathx"
+        },
+        {
+            "name": "redis",
+            "url": "https://github.com/patrickpissurno/vredis",
+            "method": "git",
+            "vpm": "patrickpissurno.redis"
         }
     ]
 }
