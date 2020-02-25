@@ -383,6 +383,12 @@
             "url": "https://github.com/patrickpissurno/vredis",
             "method": "git",
             "vpm": "patrickpissurno.redis"
+        },
+        {
+            "name": "vws",
+            "url": "https://github.com/thecodrr/vws",
+            "method": "git",
+            "vpm": "thecodrr.vws"
         }
     ]
 }
