@@ -176,7 +176,7 @@
         },
         {
             "name": "v-filecheck",
-            "url": "https://github.com/gaurav-gogia/v-filecheck",
+            "url": "https://github.com/gaurav-gogia/v-valid",
             "method": "git",
             "vpm": "gaurav-gogia.filecheck"
         },
@@ -248,7 +248,7 @@
         },
         {
             "name": "lol",
-            "url": "https://github.com/zmeriksen/lol",
+            "url": "https://github.com/0xLeif/lol",
             "method": "git",
             "vpm": "zmeriksen.lol"
         },
@@ -371,12 +371,6 @@
             "url": "https://github.com/emily33901/vproto",
             "method": "git",
             "vpm": "emily33901.vproto"
-        },
-        {
-            "name": "mark_it_down",
-            "url": "https://github.com/adlesh/mark_it_down",
-            "method": "git",
-            "vpm": "adlesh.mathx"
         },
         {
             "name": "redis",
