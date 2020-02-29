@@ -383,6 +383,18 @@
             "url": "https://github.com/thecodrr/vws",
             "method": "git",
             "vpm": "thecodrr.vws"
+        },
+        {
+            "name": "vaser",
+            "url": "https://github.com/anihex/vaser",
+            "method": "git",
+            "vpm": "anihex.vaser"
+        },
+        {
+            "name": "msgpack",
+            "url": "https://github.com/Puzomor/msgpack-v",
+            "method": "git",
+            "vpm": "Puzomor.msgpack"
         }
     ]
 }
