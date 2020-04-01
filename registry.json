@@ -431,6 +431,12 @@
             "url": "https://github.com/vlang/sdl",
             "method": "git",
             "vpm": "sdl"
+        },
+        {
+            "name": "loadingbar",
+            "url": "https://github.com/Omega0x013/loadingbar",
+            "method": "git",
+            "vpm": "Omega0x013.loadingbar"
         }
     ]
 }
