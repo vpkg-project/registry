@@ -425,6 +425,12 @@
             "url": "https://github.com/radare/v-r2pipe",
             "method": "git",
             "vpm": "radare.r2pipe"
+        },
+        {
+            "name": "sdl",
+            "url": "https://github.com/vlang/sdl",
+            "method": "git",
+            "vpm": "sdl"
         }
     ]
 }
