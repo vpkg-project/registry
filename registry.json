@@ -441,7 +441,8 @@
         {
             "name": "xorshift-v",
             "url": "https://github.com/keito940/xorshift-v",
-            "method": "git"
+            "method": "git",
+            "vpm": "keito940.xorshift"
         }
     ]
 }
