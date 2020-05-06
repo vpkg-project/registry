@@ -443,6 +443,12 @@
             "url": "https://github.com/keito940/xorshift-v",
             "method": "git",
             "vpm": "keito940.xorshift"
+        },
+        {
+            "name": "lsp",
+            "url": "https://github.com/nedpals/lsp.v",
+            "method": "git",
+            "vpm": "nedpals.lsp"
         }
     ]
 }
