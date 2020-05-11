@@ -445,10 +445,16 @@
             "vpm": "keito940.xorshift"
         },
         {
-            "name": "lsp",
+            "name": "lsp.v",
             "url": "https://github.com/nedpals/lsp.v",
             "method": "git",
             "vpm": "nedpals.lsp"
+        },
+        {
+            "name": "is-thirteen",
+            "url": "https://github.com/Delta456/is-thirteen",
+            "method": "git",
+            "vpm": "Delta456.is_thirteen"
         }
     ]
 }
