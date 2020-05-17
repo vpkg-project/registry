@@ -461,6 +461,12 @@
             "url": "https://github.com/ifndev/v-fancy-logs",
             "method": "git",
             "vpm": "ifndev.flogs"
+        },
+        {
+            "name": "vapi",
+            "url": "https://github.com/nocturlab/vapi/blob/master/src/vapi.v",
+            "method": "git",
+            "vpm": "shiipou.vapi"
         }
     ]
 }
