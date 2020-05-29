@@ -441,7 +441,32 @@
         {
             "name": "xorshift-v",
             "url": "https://github.com/keito940/xorshift-v",
-            "method": "git"
+            "method": "git",
+            "vpm": "keito940.xorshift"
+        },
+        {
+            "name": "lsp.v",
+            "url": "https://github.com/nedpals/lsp.v",
+            "method": "git",
+            "vpm": "nedpals.lsp"
+        },
+        {
+            "name": "is-thirteen",
+            "url": "https://github.com/Delta456/is-thirteen",
+            "method": "git",
+            "vpm": "Delta456.is_thirteen"
+        },
+        {
+            "name": "flogs",
+            "url": "https://github.com/ifndev/v-fancy-logs",
+            "method": "git",
+            "vpm": "ifndev.flogs"
+        },
+        {
+            "name": "vapi",
+            "url": "https://github.com/nocturlab/vapi/blob/master/src/vapi.v",
+            "method": "git",
+            "vpm": "shiipou.vapi"
         }
     ]
 }
