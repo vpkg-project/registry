@@ -26,9 +26,9 @@
         },
         {
             "name": "vgram",
-            "url": "https://github.com/vpervenditti/vgram",
+            "url": "https://github.com/dariotarantini/vgram",
             "method": "git",
-            "vpm": "vpervenditti.vgram"
+            "vpm": "dariotarantini.vgram"
         },
         {
             "name": "vgl",
