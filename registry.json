@@ -433,12 +433,6 @@
             "vpm": "sdl"
         },
         {
-            "name": "loadingbar",
-            "url": "https://github.com/Omega0x013/loadingbar",
-            "method": "git",
-            "vpm": "Omega0x013.loadingbar"
-        },
-        {
             "name": "xorshift-v",
             "url": "https://github.com/keito940/xorshift-v",
             "method": "git",
