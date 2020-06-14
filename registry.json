@@ -458,7 +458,7 @@
         },
         {
             "name": "vapi",
-            "url": "https://github.com/nocturlab/vapi/blob/master/src/vapi.v",
+            "url": "https://github.com/lucie-web/vapi/blob/master/src/vapi.v",
             "method": "git",
             "vpm": "shiipou.vapi"
         },
