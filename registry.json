@@ -467,6 +467,60 @@
             "url": "https://github.com/keito940/fnv-1",
             "method": "git",
             "vpm": "keito940.fnv-1"
+        },
+        {
+            "name": "random",
+            "url": "https://github.com/Delta456/random",
+            "method": "git",
+            "vpm": "Delta456.random"
+        },
+        {
+            "name": "ascii_robot",
+            "url": "https://github.com/Delta456/ascii_robot",
+            "method": "git",
+            "vpm": "Delta456.ascii_robot"
+        },
+        {
+            "name": "vglfw",
+            "url": "https://github.com/duarteroso/vglfw",
+            "method": "git",
+            "vpm": "Duarteroso.vglfw"
+        },
+        {
+            "name": "markdown",
+            "url": "https://github.com/vlang/markdown",
+            "method": "git",
+            "vpm": "markdown"
+        },
+        {
+            "name": "emily33901.net",
+            "url": "https://github.com/emily33901/vlang-net",
+            "method": "git",
+            "vpm": "emily33901.net"
+        },
+        {
+            "name": "vsql",
+            "url": "https://github.com/lydiandy/vsql",
+            "method": "git",
+            "vpm": "lydiandy.vsql"
+        },
+        {
+            "name": "vcfg",
+            "url": "https://github.com/fuzzy/vcfg",
+            "method": "git",
+            "vpm": "fuzzy.vcfg"
+        },
+        {
+            "name": "vlipboard",
+            "url": "https://github.com/asvvvad/vlipboard",
+            "method": "git",
+            "vpm": "asvvvad.vlipboard"
+        },
+        {
+            "name": "iapws97",
+            "url": "https://github.com/amoyyy/IAPWS-IF97-V",
+            "method": "git",
+            "vpm": "amoyyy.iapws97"
         }
     ]
 }
