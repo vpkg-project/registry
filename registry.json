@@ -509,6 +509,12 @@
             "url": "https://github.com/amoyyy/IAPWS-IF97-V",
             "method": "git",
             "vpm": "amoyyy.iapws97"
+        },
+        {
+            "name": "ini",
+            "url": "https://github.com/Cyklan/ini",
+            "method": "git",
+            "vpm": "Cyklan.ini"
         }
     ]
 }
