@@ -98,7 +98,7 @@
         },
         {
             "name": "vtwitchbot",
-            "url": "https://github.com/prooxeydev/vtwitchbot",
+            "url": "https://github.com/LouisSchmieder/vtwitchbot",
             "method": "git",
             "vpm": "prooxeydev.vtwitchbot"
         },
@@ -391,22 +391,10 @@
             "vpm": "anihex.vaser"
         },
         {
-            "name": "msgpack",
-            "url": "https://github.com/Puzomor/msgpack-v",
-            "method": "git",
-            "vpm": "Puzomor.msgpack"
-        },
-        {
             "name": "gobject-v",
             "url": "https://github.com/londoed/gobject-v",
             "method": "git",
             "vpm": "londoed.gobjectv"
-        },
-        {
-            "name": "msgpackrpc",
-            "url": "https://github.com/Puzomor/msgpackrpc-v",
-            "method": "git",
-            "vpm": "Puzomor.msgpackrpc"
         },
         {
             "name": "cjson",
