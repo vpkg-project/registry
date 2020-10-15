@@ -440,9 +440,8 @@
         },
         {
             "name": "xorshift-v",
-            "url": "https://github.com/keito940/xorshift-v",
-            "method": "git",
-            "vpm": "keito940.xorshift"
+            "url": "https://github.com/Nagkei10/xorshift-v",
+            "method": "git"
         },
         {
             "name": "lsp.v",
@@ -470,9 +469,8 @@
         },
         {
             "name": "fnv-1",
-            "url": "https://github.com/keito940/fnv-1",
-            "method": "git",
-            "vpm": "keito940.fnv-1"
+            "url": "https://github.com/Nagkei10/fnv-1",
+            "method": "git"
         }
     ]
 }
