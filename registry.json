@@ -235,12 +235,6 @@
             "vpm": "nsauzede.vnk"
         },
         {
-            "name": "vig",
-            "url": "https://vpm.best/mod/nsauzede.vig",
-            "method": "git",
-            "vpm": "nsauzede.vig"
-        },
-        {
             "name": "vex",
             "url": "https://github.com/nedpals/vex",
             "method": "git",
@@ -266,15 +260,9 @@
         },
         {
             "name": "yacc",
-            "url": "https://github.com/Naikei10/yacc-v",
+            "url": "https://github.com/Nagkei10/yacc-v",
             "method": "git",
             "vpm": "keito940.yacc"
-        },
-        {
-            "name": "vgame",
-            "url": "https://github.com/Omega0x013/vgame",
-            "method": "git",
-            "vpm": "Omega0x013.vgame"
         },
         {
             "name": "vave",
