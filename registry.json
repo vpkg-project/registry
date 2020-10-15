@@ -262,7 +262,7 @@
             "name": "yacc",
             "url": "https://github.com/Nagkei10/yacc-v",
             "method": "git",
-            "vpm": "keito940.yacc"
+            "vpm": "Nagkei.yacc"
         },
         {
             "name": "vave",
@@ -411,7 +411,8 @@
         {
             "name": "xorshift-v",
             "url": "https://github.com/Nagkei10/xorshift-v",
-            "method": "git"
+            "method": "git",
+            "vpm":"Nagkei.xorshift"
         },
         {
             "name": "lsp.v",
@@ -434,7 +435,8 @@
         {
             "name": "fnv-1",
             "url": "https://github.com/Nagkei10/fnv-1",
-            "method": "git"
+            "method": "git",
+            "vpm":"Nagkei10.fnv1"
         },
         {
             "name": "random",
