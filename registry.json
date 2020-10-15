@@ -235,12 +235,6 @@
             "vpm": "nsauzede.vnk"
         },
         {
-            "name": "vig",
-            "url": "https://vpm.best/mod/nsauzede.vig",
-            "method": "git",
-            "vpm": "nsauzede.vig"
-        },
-        {
             "name": "vex",
             "url": "https://github.com/nedpals/vex",
             "method": "git",
@@ -266,15 +260,9 @@
         },
         {
             "name": "yacc",
-            "url": "https://github.com/keito940/yacc-v",
+            "url": "https://github.com/Nagkei10/yacc-v",
             "method": "git",
-            "vpm": "keito940.yacc"
-        },
-        {
-            "name": "vgame",
-            "url": "https://github.com/Omega0x013/vgame",
-            "method": "git",
-            "vpm": "Omega0x013.vgame"
+            "vpm": "Nagkei.yacc"
         },
         {
             "name": "vave",
@@ -386,7 +374,7 @@
         },
         {
             "name": "vaser",
-            "url": "https://github.com/anihex/vaser",
+            "url": "https://github.com/christopher-kleine/vaser",
             "method": "git",
             "vpm": "anihex.vaser"
         },
@@ -422,9 +410,9 @@
         },
         {
             "name": "xorshift-v",
-            "url": "https://github.com/keito940/xorshift-v",
+            "url": "https://github.com/Nagkei10/xorshift-v",
             "method": "git",
-            "vpm": "keito940.xorshift"
+            "vpm":"Nagkei.xorshift"
         },
         {
             "name": "lsp.v",
@@ -445,16 +433,10 @@
             "vpm": "ifndev.flogs"
         },
         {
-            "name": "vapi",
-            "url": "https://github.com/lucie-web/vapi/blob/master/src/vapi.v",
-            "method": "git",
-            "vpm": "shiipou.vapi"
-        },
-        {
             "name": "fnv-1",
-            "url": "https://github.com/keito940/fnv-1",
+            "url": "https://github.com/Nagkei10/fnv-1",
             "method": "git",
-            "vpm": "keito940.fnv-1"
+            "vpm":"Nagkei10.fnv1"
         },
         {
             "name": "random",
@@ -470,7 +452,7 @@
         },
         {
             "name": "vglfw",
-            "url": "https://github.com/duarteroso/vglfw",
+            "url": "https://github.com/novuloj/vglfw",
             "method": "git",
             "vpm": "Duarteroso.vglfw"
         },
@@ -500,7 +482,7 @@
         },
         {
             "name": "vlipboard",
-            "url": "https://github.com/asvvvad/vlipboard",
+            "url": "https://github.com/asvvvad1/vlipboard",
             "method": "git",
             "vpm": "asvvvad.vlipboard"
         },
