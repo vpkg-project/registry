@@ -26,9 +26,9 @@
         },
         {
             "name": "vgram",
-            "url": "https://github.com/vpervenditti/vgram",
+            "url": "https://github.com/dariotarantini/vgram",
             "method": "git",
-            "vpm": "vpervenditti.vgram"
+            "vpm": "dariotarantini.vgram"
         },
         {
             "name": "vgl",
@@ -98,7 +98,7 @@
         },
         {
             "name": "vtwitchbot",
-            "url": "https://github.com/prooxeydev/vtwitchbot",
+            "url": "https://github.com/LouisSchmieder/vtwitchbot",
             "method": "git",
             "vpm": "prooxeydev.vtwitchbot"
         },
@@ -391,22 +391,10 @@
             "vpm": "anihex.vaser"
         },
         {
-            "name": "msgpack",
-            "url": "https://github.com/Puzomor/msgpack-v",
-            "method": "git",
-            "vpm": "Puzomor.msgpack"
-        },
-        {
             "name": "gobject-v",
             "url": "https://github.com/londoed/gobject-v",
             "method": "git",
             "vpm": "londoed.gobjectv"
-        },
-        {
-            "name": "msgpackrpc",
-            "url": "https://github.com/Puzomor/msgpackrpc-v",
-            "method": "git",
-            "vpm": "Puzomor.msgpackrpc"
         },
         {
             "name": "cjson",
@@ -433,12 +421,6 @@
             "vpm": "sdl"
         },
         {
-            "name": "loadingbar",
-            "url": "https://github.com/Omega0x013/loadingbar",
-            "method": "git",
-            "vpm": "Omega0x013.loadingbar"
-        },
-        {
             "name": "xorshift-v",
             "url": "https://github.com/Nagkei10/xorshift-v",
             "method": "git"
@@ -463,7 +445,7 @@
         },
         {
             "name": "vapi",
-            "url": "https://github.com/nocturlab/vapi/blob/master/src/vapi.v",
+            "url": "https://github.com/lucie-web/vapi/blob/master/src/vapi.v",
             "method": "git",
             "vpm": "shiipou.vapi"
         },
@@ -471,6 +453,66 @@
             "name": "fnv-1",
             "url": "https://github.com/Nagkei10/fnv-1",
             "method": "git"
+        },
+        {
+            "name": "random",
+            "url": "https://github.com/Delta456/random",
+            "method": "git",
+            "vpm": "Delta456.random"
+        },
+        {
+            "name": "ascii_robot",
+            "url": "https://github.com/Delta456/ascii_robot",
+            "method": "git",
+            "vpm": "Delta456.ascii_robot"
+        },
+        {
+            "name": "vglfw",
+            "url": "https://github.com/duarteroso/vglfw",
+            "method": "git",
+            "vpm": "Duarteroso.vglfw"
+        },
+        {
+            "name": "markdown",
+            "url": "https://github.com/vlang/markdown",
+            "method": "git",
+            "vpm": "markdown"
+        },
+        {
+            "name": "emily33901.net",
+            "url": "https://github.com/emily33901/vlang-net",
+            "method": "git",
+            "vpm": "emily33901.net"
+        },
+        {
+            "name": "vsql",
+            "url": "https://github.com/lydiandy/vsql",
+            "method": "git",
+            "vpm": "lydiandy.vsql"
+        },
+        {
+            "name": "vcfg",
+            "url": "https://github.com/fuzzy/vcfg",
+            "method": "git",
+            "vpm": "fuzzy.vcfg"
+        },
+        {
+            "name": "vlipboard",
+            "url": "https://github.com/asvvvad/vlipboard",
+            "method": "git",
+            "vpm": "asvvvad.vlipboard"
+        },
+        {
+            "name": "iapws97",
+            "url": "https://github.com/amoyyy/IAPWS-IF97-V",
+            "method": "git",
+            "vpm": "amoyyy.iapws97"
+        },
+        {
+            "name": "ini",
+            "url": "https://github.com/Cyklan/ini",
+            "method": "git",
+            "vpm": "Cyklan.ini"
         }
     ]
 }
