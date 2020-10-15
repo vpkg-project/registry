@@ -266,7 +266,7 @@
         },
         {
             "name": "yacc",
-            "url": "https://github.com/keito940/yacc-v",
+            "url": "https://github.com/Naikei10/yacc-v",
             "method": "git",
             "vpm": "keito940.yacc"
         },
@@ -386,7 +386,7 @@
         },
         {
             "name": "vaser",
-            "url": "https://github.com/anihex/vaser",
+            "url": "https://github.com/christopher-kleine/vaser",
             "method": "git",
             "vpm": "anihex.vaser"
         },
@@ -444,12 +444,6 @@
             "vpm": "ifndev.flogs"
         },
         {
-            "name": "vapi",
-            "url": "https://github.com/lucie-web/vapi/blob/master/src/vapi.v",
-            "method": "git",
-            "vpm": "shiipou.vapi"
-        },
-        {
             "name": "fnv-1",
             "url": "https://github.com/Nagkei10/fnv-1",
             "method": "git"
@@ -468,7 +462,7 @@
         },
         {
             "name": "vglfw",
-            "url": "https://github.com/duarteroso/vglfw",
+            "url": "https://github.com/novuloj/vglfw",
             "method": "git",
             "vpm": "Duarteroso.vglfw"
         },
@@ -498,7 +492,7 @@
         },
         {
             "name": "vlipboard",
-            "url": "https://github.com/asvvvad/vlipboard",
+            "url": "https://github.com/asvvvad1/vlipboard",
             "method": "git",
             "vpm": "asvvvad.vlipboard"
         },
