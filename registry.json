@@ -497,6 +497,12 @@
             "url": "https://github.com/Cyklan/ini",
             "method": "git",
             "vpm": "Cyklan.ini"
+        },
+        {
+            "name": "human_bytes",
+            "url": "https://github.com/mikerockett/human_bytes",
+            "method": "git",
+            "vpm": "mikerockett.human_bytes"
         }
     ]
 }
