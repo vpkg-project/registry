@@ -1,6 +1,12 @@
 {
     "packages": [
         {
+            "name": "base32",
+            "url": "https://github.com/islonely/base32",
+            "method": "git",
+            "vpm": "islonely.base32"
+        },
+        {
             "name": "base58",
             "url": "https://github.com/islonely/base58",
             "method": "git",
