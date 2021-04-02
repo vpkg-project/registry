@@ -1,6 +1,12 @@
 {
     "packages": [
         {
+            "name": "htmlbuilder",
+            "url": "https://github.com/islonely/v-htmlbuilder",
+            "method": "git",
+            "vpm": "islonely.htmlbuilde"
+        },
+        {
             "name": "base32",
             "url": "https://github.com/islonely/base32",
             "method": "git",
