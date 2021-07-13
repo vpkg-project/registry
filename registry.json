@@ -157,12 +157,6 @@
             "vpm": "jamestomasino.veasing"
         },
         {
-            "name": "sorty",
-            "url": "https://github.com/amalshaji/sorty",
-            "method": "git",
-            "vpm": "amalshaji.sorty"
-        },
-        {
             "name": "v-lmath",
             "url": "https://github.com/lobotony/v-lmath",
             "method": "git",
@@ -322,19 +316,31 @@
             "name": "vsl",
             "url": "https://github.com/vlang/vsl",
             "method": "git",
-            "vpm": "ulises-jeremias.vsl"
+            "vpm": "vsl"
+        },
+        {
+            "name": "vtl",
+            "url": "https://github.com/vlang/vtl",
+            "method": "git",
+            "vpm": "vtl"
+        },
+        {
+            "name": "rxv",
+            "url": "https://github.com/ulises-jeremias/rxv",
+            "method": "git",
+            "vpm": "ulises-jeremias.rxv"
+        },
+        {
+            "name": "onecontext",
+            "url": "https://github.com/ulises-jeremias/onecontext",
+            "method": "git",
+            "vpm": "ulises-jeremias.onecontext"
         },
         {
             "name": "v-miniaudio",
             "url": "https://github.com/Larpon/v-miniaudio",
             "method": "git",
             "vpm": "Larpon.miniaudio"
-        },
-        {
-            "name": "vnum",
-            "url": "https://github.com/vlang-num/vnum",
-            "method": "git",
-            "vpm": "christopherzimmerman.vnum"
         },
         {
             "name": "color",
