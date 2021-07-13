@@ -157,12 +157,6 @@
             "vpm": "jamestomasino.veasing"
         },
         {
-            "name": "sorty",
-            "url": "https://github.com/amalshaji/sorty",
-            "method": "git",
-            "vpm": "amalshaji.sorty"
-        },
-        {
             "name": "v-lmath",
             "url": "https://github.com/lobotony/v-lmath",
             "method": "git",
@@ -347,12 +341,6 @@
             "url": "https://github.com/Larpon/v-miniaudio",
             "method": "git",
             "vpm": "Larpon.miniaudio"
-        },
-        {
-            "name": "vnum",
-            "url": "https://github.com/vlang-num/vnum",
-            "method": "git",
-            "vpm": "christopherzimmerman.vnum"
         },
         {
             "name": "color",
