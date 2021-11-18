@@ -521,6 +521,12 @@
             "url": "https://github.com/Cyklan/ini",
             "method": "git",
             "vpm": "Cyklan.ini"
+        },
+        {
+            "name":"spinners",
+            "url":"https://github.com/rhygg/spinners",
+            "method":"git",
+            "vpm":"rhygg.spinners"
         }
     ]
 }
