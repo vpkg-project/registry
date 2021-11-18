@@ -1,6 +1,18 @@
 {
     "packages": [
         {
+            "name": "hex",
+            "url": "https://github.com/islonely/v-hex",
+            "method": "git",
+            "vpm": "islonely.hex"
+        },
+        {
+            "name": "base36",
+            "url": "https://github.com/islonely/base36",
+            "method": "git",
+            "vpm": "islonely.base36"
+        },
+        {
             "name": "htmlbuilder",
             "url": "https://github.com/islonely/v-htmlbuilder",
             "method": "git",
