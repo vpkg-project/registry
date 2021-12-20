@@ -1,6 +1,12 @@
 {
     "packages": [
         {
+            "name": "vkov",
+            "url": "https://github.com/boon-cpu/VkoV",
+            "method": "git",
+            "vpm": "booncpu.vkov"
+        },
+        {
             "name": "htmlbuilder",
             "url": "https://github.com/islonely/v-htmlbuilder",
             "method": "git",
