@@ -533,6 +533,12 @@
             "url":"https://github.com/rhygg/spinners",
             "method":"git",
             "vpm":"rhygg.spinners"
+        },
+        {
+            "name":"v-password-validator",
+            "url":"https://github.com/xy3/v-password-validator",
+            "method":"git",
+            "vpm":"xy3.v-password-validator"
         }
     ]
 }
