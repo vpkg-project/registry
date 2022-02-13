@@ -533,6 +533,12 @@
             "url":"https://github.com/rhygg/spinners",
             "method":"git",
             "vpm":"rhygg.spinners"
+        },
+        {
+            "name":"dogapi",
+            "url":"https://github.com/thexxiv/dogapi-v",
+            "method":"git",
+            "vpm":"thexxiv.dogapi"
         }
     ]
 }
