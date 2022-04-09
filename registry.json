@@ -536,9 +536,9 @@
         },
         {
             "name":"dogapi",
-            "url":"https://github.com/thexxiv/dogapi-v",
+            "url":"https://github.com/thechampagne/dogapi-v",
             "method":"git",
-            "vpm":"thexxiv.dogapi"
+            "vpm":"thechampagne.dogapi"
         }
     ]
 }
