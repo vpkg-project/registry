@@ -539,6 +539,12 @@
             "url":"https://github.com/thexxiv/dogapi-v",
             "method":"git",
             "vpm":"thexxiv.dogapi"
+        },
+        {
+            "name":"vault",
+            "url":"https://github.com/PowellDean/v-vault",
+            "method":"git",
+            "vpm":"PowellDean.vault"
         }
     ]
 }
