@@ -552,6 +552,12 @@
             "method":"git",
             "vpm":"PowellDean.vault"
             "vpm":"thechampagne.dogapi"
+        },
+        {
+            "name":"audiodb",
+            "url":"https://github.com/thechampagne/audiodb-v",
+            "method":"git",
+            "vpm":"thechampagne.audiodb"
         }
     ]
 }
