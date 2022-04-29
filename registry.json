@@ -535,9 +535,22 @@
             "vpm":"rhygg.spinners"
         },
         {
+            "name":"v-password-validator",
+            "url":"https://github.com/xy3/v-password-validator",
+            "method":"git",
+            "vpm":"xy3.v-password-validator"
+        },
+        {
             "name":"dogapi",
             "url":"https://github.com/thechampagne/dogapi-v",
             "method":"git",
+            "vpm":"thexxiv.dogapi"
+        },
+        {
+            "name":"vault",
+            "url":"https://github.com/PowellDean/v-vault",
+            "method":"git",
+            "vpm":"PowellDean.vault"
             "vpm":"thechampagne.dogapi"
         },
         {
@@ -545,6 +558,12 @@
             "url":"https://github.com/phenolophthaleinum/v-bio",
             "method":"git",
             "vpm":"phenolophthaleinum.bio"
+        },
+        {
+            "name":"audiodb",
+            "url":"https://github.com/thechampagne/audiodb-v",
+            "method":"git",
+            "vpm":"thechampagne.audiodb"
         }
     ]
 }
