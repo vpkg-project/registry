@@ -539,6 +539,12 @@
             "url":"https://github.com/thechampagne/dogapi-v",
             "method":"git",
             "vpm":"thechampagne.dogapi"
+        },
+        {
+            "name":"bio",
+            "url":"https://github.com/phenolophthaleinum/v-bio",
+            "method":"git",
+            "vpm":"phenolophthaleinum.bio"
         }
     ]
 }
