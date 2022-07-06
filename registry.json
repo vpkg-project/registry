@@ -551,7 +551,6 @@
             "url":"https://github.com/PowellDean/v-vault",
             "method":"git",
             "vpm":"PowellDean.vault"
-            "vpm":"thechampagne.dogapi"
         },
         {
             "name":"bio",
