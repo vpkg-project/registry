@@ -563,6 +563,12 @@
             "url":"https://github.com/thechampagne/audiodb-v",
             "method":"git",
             "vpm":"thechampagne.audiodb"
+        },
+        {
+            "name":"mealdb",
+            "url":"https://github.com/thechampagne/mealdb-v",
+            "method":"git",
+            "vpm":"thechampagne.mealdb"
         }
     ]
 }
