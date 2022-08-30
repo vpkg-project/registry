@@ -569,6 +569,12 @@
             "url":"https://github.com/thechampagne/mealdb-v",
             "method":"git",
             "vpm":"thechampagne.mealdb"
+        },
+        {
+            "name":"cocktaildb",
+            "url":"https://github.com/thechampagne/cocktaildb-v",
+            "method":"git",
+            "vpm":"thechampagne.cocktaildb"
         }
     ]
 }
